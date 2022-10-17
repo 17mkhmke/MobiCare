@@ -5,18 +5,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    display: flex;
+    background-color: lightslategray;
+}
 .logo {
     width: 5em;
+}
+.menu-list{
+    display: inline-flex;
 }
 .menu {
     margin-left: auto;
     margin-right: 2rem;
     align-self: center;
-    display: inline-flex;
+    
 }
 .menu-list {
-    background-color: lightslategray;
-    display: inline-flex;
+    display: flex;
     list-style: none;
    color: white;
     
@@ -26,4 +32,16 @@
     max-width: 300px;
     float: right;
     min-width: 100vh;
+    display: flex;
 }
+.menu-list a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu-list a:hover{
+    color: lightblue;
+}
+
