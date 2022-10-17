@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 5em;
+}
+.menu {
+    margin-left: auto;
+    margin-right: 2rem;
+    align-self: center;
+    display: inline-flex;
+}
+.menu-list {
+    background-color: lightslategray;
+    display: inline-flex;
+    list-style: none;
+   color: white;
+    
+}
+.menu-list {
+    background-color: lightslategray;
+    max-width: 300px;
+    float: right;
+    min-width: 100vh;
+}
